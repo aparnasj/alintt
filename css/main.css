@@ -1,0 +1,29 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: '#FFF';
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-content {
+  border: 1px solid #e4e4e4;
+  height: 100%;
+}
+
+.header .nav, .tab-content {
+  width: 100%;
+}
+
+.tab-pane .title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 800;
+  padding: 20px;
+}
