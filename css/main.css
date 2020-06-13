@@ -17,8 +17,14 @@ body {
   height: 100%;
 }
 
-.header .nav, .tab-content {
+.header .nav,
+.tab-content {
   width: 100%;
+}
+
+.tab-pane,
+.tab-content {
+  height: calc(100% - 35px);
 }
 
 .tab-pane .title {
@@ -26,4 +32,65 @@ body {
   text-align: center;
   font-weight: 800;
   padding: 20px;
+}
+
+#giphy-images {
+  padding: 40px;
+}
+
+.giphy-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.giphy-item {
+  position: relative;
+  height: 200px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  margin: 10px;
+  -webkit-box-shadow: 10px 16px 21px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 16px 21px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 16px 21px -20px rgba(0, 0, 0, 0.75);
+}
+
+.giphy-item img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.scroll-panel {
+  height: 100%;
+  overflow: scroll;
+  height: calc(100% - 150px);
+  margin: 20px 0px;
+}
+
+.search-title {
+  width: 100%;
+  font-size: 16px;
+  padding: 15px 25px;
+  font-weight: 200;
+}
+
+.search-title-key {
+  font-weight: 800;
+}
+
+.clear-search {
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #e2e2e2;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
