@@ -69,4 +69,9 @@ function loadMoreGifs() {
 
 $(document).ready(function () {
   fetchTrendingGifs();
+  var options = {
+    modules: { toolbar: '#toolbar' },
+    theme: 'snow',
+  };
+  window.quillEditor = new Quill('#quill-editor', options);
 });

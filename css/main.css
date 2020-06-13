@@ -94,3 +94,13 @@ body {
   padding: 5px 15px;
   border-radius: 15px;
 }
+
+.quill-editor-wrapper {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 20px;
+}
+
+#quill-editor {
+  height: 300px;
+}
